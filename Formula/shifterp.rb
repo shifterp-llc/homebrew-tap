@@ -1,28 +1,28 @@
 class Shifterp < Formula
   desc "ShiftERP operator CLI — tenants, accounts, and support feedback"
   homepage "https://shifterp.com"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://shiftstack.ai/dl/shifterp/v0.1.0/shifterp_darwin_amd64"
-      sha256 "0b19e0a8c99193ee08e4ae06824bf2b9ea985a9331fef57c63ef3225db45cb66"
+      url "https://shiftstack.ai/dl/shifterp/v0.2.0/shifterp_darwin_amd64"
+      sha256 "eea8e5d06c5723c5aedbb623ead0ab816b353ac28e8c7cc97e24340572aba865"
     end
     on_arm do
-      url "https://shiftstack.ai/dl/shifterp/v0.1.0/shifterp_darwin_arm64"
-      sha256 "eec8e402e864040aa40b20bc1827a595c0e584ab1d21e0485f6422c6105457c5"
+      url "https://shiftstack.ai/dl/shifterp/v0.2.0/shifterp_darwin_arm64"
+      sha256 "6062f679b007ddc79e472431ff15fa61f6e1103f30c18f7ca98c9e1e56bafa51"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://shiftstack.ai/dl/shifterp/v0.1.0/shifterp_linux_amd64"
-      sha256 "58b13e5574d8a11492270a4174143bdaecb51f755d2f5f12ba45ac89d4c23bc6"
+      url "https://shiftstack.ai/dl/shifterp/v0.2.0/shifterp_linux_amd64"
+      sha256 "3b7d0dbede012796246e58661f8a2b9f0c4f26b0762b8deae5f53aca471982e2"
     end
     on_arm do
-      url "https://shiftstack.ai/dl/shifterp/v0.1.0/shifterp_linux_arm64"
-      sha256 "82f00164603d0970f2b6419449e803a9cbb499dc227a709b00fcba6e5ce9ba76"
+      url "https://shiftstack.ai/dl/shifterp/v0.2.0/shifterp_linux_arm64"
+      sha256 "1644502a75daad3316a2b10d1a447a85d4e1ef39a1b015b3ad2969e3802fee4f"
     end
   end
 
