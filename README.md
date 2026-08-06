@@ -27,10 +27,19 @@ formula by hand.
 ```bash
 # Admin API token (auth tenants/accounts + schedule-api feedback admin)
 shifterp auth set-key '<ADMIN_API_TOKEN>'
+
+# Wire MCP + shifterp-operator skill into Claude Code, Cursor, and Grok Build
+# (same pattern as mmntum install / stk install)
+shifterp install
+# subset: shifterp install --only grok
+
 shifterp status
 shifterp tenant list
 shifterp feedback list
 ```
+
+Restart AI tool sessions after `shifterp install` so MCP picks up. Tools run as
+your stored admin token via `shifterp mcp serve`.
 
 Optional `~/.shifterp/config.json` fields:
 
